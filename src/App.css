@@ -5,6 +5,8 @@
 
 .App{
   display:flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   max-width: 900px;
   width: 100%;
@@ -17,9 +19,41 @@
   align-items: center;
   width:100%;
   background: cornsilk;
-  margin-top: 1rem;
+  margin-top:1rem;
 }
 
 img{
   width:100%;
+  border-radius: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+  height: 3rem;
+}
+
+.contentBox{
+  width:80%;
+  margin:1rem;
+}
+
+.explanation{
+  padding:1.5rem;
+  border-radius:1rem; 
+  background:lavenderblush;
+  line-height:1.5rem;
+  text-align: justify;
+}
+.photoCopyright{
+  background:rgba(0, 0, 0, 0.8);
+  padding:.5rem 2rem;
+  border-radius: .5rem;
+  text-align: right;
+  color:white;
+  position: relative;
+  bottom:3rem;
+  right:2rem;
 }
