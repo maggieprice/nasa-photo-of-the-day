@@ -8,13 +8,11 @@ return (
     <div 
     className="photoHolder">
         <MyImgHolder>
-
         <MyImage
           src={props.photoOfTheDay.url}
           alt={props.photoOfTheDay.title}
         />
-      
- </MyImgHolder>
+        </MyImgHolder>
     </div>
     {props.photoOfTheDay.copyright ? (
         <p className="phototCopyright">
