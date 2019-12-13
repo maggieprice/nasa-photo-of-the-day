@@ -1,4 +1,5 @@
 import React from 'react'
+import { MyImgHolder, MyImage } from "./Styles.js";
 
 const Photo =(props)=>{
     console.log(props)
@@ -6,11 +7,14 @@ return (
     <div> 
     <div 
     className="photoHolder">
-    <img 
-    src={props.photoOfTheDay.url} 
-    alt={props.photoOfTheDay.title}
-    />
-    
+        <MyImgHolder>
+
+        <MyImage
+          src={props.photoOfTheDay.url}
+          alt={props.photoOfTheDay.title}
+        />
+      
+ </MyImgHolder>
     </div>
     {props.photoOfTheDay.copyright ? (
         <p className="phototCopyright">

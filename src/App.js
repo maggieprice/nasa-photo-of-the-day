@@ -4,6 +4,7 @@ import "./App.css";
 import Photo from "./Components/Photo.js";
 import NavBar from "./Components/NavBar.js";
 import ContentBox from "./Components/ContentBox.js";
+import styled from "styled-components";
 
 function App() {
   const [photoOfTheDay, setPhotoOfTheDay]= useState('')

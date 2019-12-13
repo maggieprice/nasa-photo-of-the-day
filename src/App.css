@@ -12,7 +12,7 @@
   width: 100%;
  
 }
-
+/* 
 .photoHolder{
   display:flex;
   justify-content: center;
@@ -20,11 +20,10 @@
   width:100%;
   background: cornsilk;
   margin-top:1rem;
-}
+} */
 
-img{
-  width:100%;
-  border-radius: 1rem;
+/* img{
+
 }
 
 nav {
@@ -33,12 +32,12 @@ nav {
   align-items: center;
   width:100%;
   height: 3rem;
-}
+} */
 
-.contentBox{
+/* .contentBox{
   width:80%;
   margin:1rem;
-}
+} */
 
 .explanation{
   padding:1.5rem;
